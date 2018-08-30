@@ -1,0 +1,203 @@
+body{
+background-color:#66804C;
+
+}
+
+.flip {
+             
+	height:500px;
+    width: 300px;
+    float: left;
+    margin: 15px;
+	
+}	
+.flip > .front	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 0deg );
+   background: black ; 
+   color: white;
+   width:300px ;
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility: hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip > .back	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 180deg );
+   background:#3D0000 ;
+   color: white;   
+   width:300px ; 
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility:hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip:hover > .front {
+
+      transform : perspective( 600px ) rotateY( -180deg );
+
+}
+
+.flip:hover > .back {
+
+      transform : perspective( 600px ) rotateY( 0deg );
+
+}
+
+
+
+
+.flip1 {
+             
+	height:500px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+	
+}	
+.flip1 > .front1	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 0deg );
+   background: black ; 
+   color: white;
+   width:300px ;
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility: hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip1 > .back1	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 180deg );
+   background:#000019 ; 
+   color: white;
+   width:300px ; 
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility:hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip1:hover > .front1 {
+
+      transform : perspective( 600px ) rotateY( -180deg );
+
+}
+
+.flip1:hover > .back1 {
+
+      transform : perspective( 600px ) rotateY( 0deg );
+
+}
+
+
+
+
+.flip2 {
+             
+	height:500px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+	
+}	
+.flip2 > .front2	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 0deg );
+   background: black ; 
+   color: white;
+   width:300px ;
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility: hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip2 > .back2	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 180deg );
+   background:#3D0000 ; 
+   color: white;
+   width:300px ; 
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility:hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip2:hover > .front2 {
+
+      transform : perspective( 600px ) rotateY( -180deg );
+
+}
+
+.flip2:hover > .back2 {
+
+      transform : perspective( 600px ) rotateY( 0deg );
+
+}
+
+
+.flip3 {
+             
+	height:500px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+	
+}	
+.flip3 > .front3	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 0deg );
+   background: black ; 
+   color: white;
+   width:300px ;
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility: hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip3 > .back3	{
+
+   position:absolute;
+   transform:perspective( 600px ) rotateY( 180deg );
+   background:#000019 ; 
+   color: white;
+   width:300px ; 
+   height: 500px;
+   border-radius: 7px; 
+   backface-visibility:hidden;
+   transition: transform .5s linear 0s;   
+        
+}
+
+.flip3:hover > .front3 {
+
+      transform : perspective( 600px ) rotateY( -180deg );
+
+}
+
+.flip3:hover > .back3 {
+
+      transform : perspective( 600px ) rotateY( 0deg );
+
+}
